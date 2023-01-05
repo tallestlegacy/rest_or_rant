@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "675628233275",
+    "firebase_url": "https://handy-men-d312e-default-rtdb.firebaseio.com",
+    "project_id": "handy-men-d312e",
+    "storage_bucket": "handy-men-d312e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675628233275:android:a761eeed0a19072c4aa21e",
+        "android_client_info": {
+          "package_name": "com.example.handy_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675628233275-a4eoi6ks6aqfer6em68fqcb4cdq2brmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIbE_KW1FP0KizcVPxPG96J29h4aEDgkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675628233275-a4eoi6ks6aqfer6em68fqcb4cdq2brmt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675628233275-4j0o4ruo5kucnthj1dui8ofskd80bi5b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.restOrRant"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675628233275:android:1a9097d4762330054aa21e",
+        "android_client_info": {
+          "package_name": "com.example.rest_or_rant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675628233275-a4eoi6ks6aqfer6em68fqcb4cdq2brmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIbE_KW1FP0KizcVPxPG96J29h4aEDgkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675628233275-a4eoi6ks6aqfer6em68fqcb4cdq2brmt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675628233275-4j0o4ruo5kucnthj1dui8ofskd80bi5b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.restOrRant"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

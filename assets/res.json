@@ -1,0 +1,286 @@
+[
+    {
+        "id": 15170698,
+        "restaurantName": "Nkg Cafe and Restaurant",
+        "address": "28 Leland Ave",
+        "zipCode": "94134-2804",
+        "latitude": "37.71163",
+        "longitude": "-122.40423",
+        "stateName": "CA",
+        "cityName": "San Francisco",
+        "cuisineType": "Restaurant",
+        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/1b/01/10/f6/caption.jpg",
+        "food": [
+            {
+                "id": 1,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 2,
+                "name": "lorem1",
+                "price": 399,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 3,
+                "name": "lorem1",
+                "price": 59,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 4,
+                "name": "lorem1",
+                "price": 64,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 19669567,
+        "restaurantName": "Cardinal Nutrition",
+        "address": "2631 S 3rd St",
+        "zipCode": "40208-1408",
+        "latitude": "38.21006",
+        "longitude": "-85.76271",
+        "stateName": "KY",
+        "cityName": "Louisville",
+        "cuisineType": "Restaurant",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0JTQWzYNs4pPY3TFLIJKYwYRvFE06WLKGvP8rvbObsAEqpi6UQ9HKKG0PcIAJxLRWPtQ&usqp=CAU",
+        "food": [
+            {
+                "id": 5,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 6,
+                "price": 399,
+                "name": "lorem1",
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 7,
+                "name": "lorem1",
+                "price": 59,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 7144461,
+        "restaurantName": "Panda Express",
+        "address": "33550 S Dixie Hwy",
+        "zipCode": "33034-5602",
+        "latitude": "25.456512",
+        "longitude": "-80.47546",
+        "stateName": "FL",
+        "cityName": "Florida City",
+        "cuisineType": "Chinese,Asian,Fast Food",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Panda_Express_Storefront_%2848128044623%29.jpg",
+        "food": [
+            {
+                "id": 8,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 9,
+                "name": "lorem1",
+                "price": 399,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 4291261,
+        "restaurantName": "Noodles & Company",
+        "address": "184 N Adams Rd",
+        "zipCode": "48309",
+        "latitude": "42.683113",
+        "longitude": "-83.193214",
+        "stateName": "MI",
+        "cityName": "Rochester Hills",
+        "cuisineType": "Asian,Thai,American",
+        "imageUrl": "https://cdn.vox-cdn.com/thumbor/WtDRppjGCaSIzM_t8aNZqWvEmOg=/50x0:450x300/1200x800/filters:focal(50x0:450x300)/cdn.vox-cdn.com/uploads/chorus_image/image/38992908/noodles.0.jpg",
+        "food": [
+            {
+                "id": 10,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 11,
+                "name": "lorem1",
+                "price": 399,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 12,
+                "name": "lorem1",
+                "price": 59,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 8714417,
+        "restaurantName": "Fromage Restaurant",
+        "address": "401 W Broadway",
+        "zipCode": "02127-2217",
+        "latitude": "42.337124",
+        "longitude": "-71.04824",
+        "stateName": "MA",
+        "cityName": "Boston",
+        "cuisineType": "American,Italian,French,European,Wine Bar",
+        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/12/a7/83/cc/wine-and-antipasto.jpg",
+        "food": [
+            {
+                "id": 13,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 15170118,
+        "restaurantName": "Mini the Dough-Nut",
+        "address": "21925 Marine View Dr S",
+        "zipCode": "98198-6159",
+        "latitude": "47.40511",
+        "longitude": "-122.32497",
+        "stateName": "WA",
+        "cityName": "Seattle",
+        "cuisineType": "Restaurant",
+        "imageUrl": "https://minithedough-nut.com/wp-content/uploads/2018/05/home-3.jpg",
+        "food": [
+            {
+                "id": 14,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 15,
+                "name": "lorem1",
+                "price": 399,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 16,
+                "name": "lorem1",
+                "price": 59,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 19660440,
+        "restaurantName": "Subway",
+        "address": "10819 E 31st Street",
+        "zipCode": "74146",
+        "latitude": "36.11933",
+        "longitude": "-95.855606",
+        "stateName": "OK",
+        "cityName": "Tulsa",
+        "cuisineType": "Restaurant",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Subway_in_Burwood_Plaza.jpg",
+        "food": [
+            {
+                "id": 17,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 18,
+                "name": "lorem1",
+                "price": 399,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 5075933,
+        "restaurantName": "Sonic Drive-In",
+        "address": "2035 College Avenue",
+        "zipCode": "36545",
+        "latitude": "31.532854",
+        "longitude": "-87.89105",
+        "stateName": "AL",
+        "cityName": "Jackson",
+        "cuisineType": "Restaurant",
+        "imageUrl": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/2021-03/Sonic-Exterior-large.jpg?h=1a818ad9&itok=Wl85yhW5",
+        "food": [
+            {
+                "id": 19,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 20,
+                "name": "lorem1",
+                "price": 399,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 21,
+                "name": "lorem1",
+                "price": 59,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 4615180,
+        "restaurantName": "Dairy Queen",
+        "address": "268 S Main St",
+        "zipCode": "48065-5131",
+        "latitude": "42.79779",
+        "longitude": "-83.01376",
+        "stateName": "MI",
+        "cityName": "Romeo",
+        "cuisineType": "Fast Food,American",
+        "imageUrl": "http://media.bizj.us/view/img/9257062/exteriorday*1200xx4842-2727-0-241.jpg",
+        "food": [
+            {
+                "id": 22,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 17317377,
+        "restaurantName": "Hardee's",
+        "address": "100 Suzanne Dr",
+        "zipCode": "37055",
+        "latitude": "36.02279",
+        "longitude": "-87.33702",
+        "stateName": "TN",
+        "cityName": "Dickson",
+        "cuisineType": "Fast Food",
+        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/14/89/f9/4a/hardees-jumeira-rd-dubai.jpg",
+        "food": [
+            {
+                "id": 23,
+                "name": "lorem1",
+                "price": 199,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            },
+            {
+                "id": 24,
+                "name": "lorem1",
+                "price": 399,
+                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+            }
+        ]
+    }
+]
