@@ -12,49 +12,64 @@ class FoodCard extends StatelessWidget {
     final GlobalStore globalStore = Get.put(GlobalStore());
     return Container(
       padding: const EdgeInsets.all(16),
-      child: Row(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(
-            clipBehavior: Clip.antiAlias,
-            constraints: const BoxConstraints(minHeight: 100),
-            width: 100,
-            height: 100,
-            decoration: const BoxDecoration(
-                color: Colors.black,
-                borderRadius: BorderRadius.all(Radius.circular(12))),
-            child: Image.network(
-              foodItem["imageUrl"],
-              fit: BoxFit.cover,
-            ),
-          ),
-          Expanded(
-            child: ListTile(
-              title: Text(foodItem["name"]),
-              subtitle: Text("Ksh. ${foodItem["price"]}"),
-            ),
-          ),
-          Obx(
-            () => Container(
-                margin: const EdgeInsets.all(8),
-                height: 40,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: globalStore.inCart(foodItem)
-                      ? Colors.redAccent
-                      : Colors.greenAccent,
+          Row(
+            children: [
+              Container(
+                clipBehavior: Clip.antiAlias,
+                constraints: const BoxConstraints(minHeight: 100),
+                width: 100,
+                height: 100,
+                decoration: const BoxDecoration(
+                    color: Colors.black,
+                    borderRadius: BorderRadius.all(Radius.circular(12))),
+                child: Image.network(
+                  foodItem["imageUrl"],
+                  fit: BoxFit.cover,
                 ),
-                child: IconButton(
-                  color: globalStore.inCart(foodItem)
-                      ? Colors.white
-                      : Colors.green[700],
-                  onPressed: () {
-                    globalStore.updateCart(foodItem);
-                  },
-                  icon: Icon(
-                    globalStore.inCart(foodItem) ? Icons.remove : Icons.add,
-                  ),
-                )),
-          )
+              ),
+              Expanded(
+                child: ListTile(
+                  title: Text(foodItem["name"]),
+                  subtitle: Text("Ksh. ${foodItem["price"]}"),
+                ),
+              ),
+              Obx(
+                () => Container(
+                    margin: const EdgeInsets.all(8),
+                    height: 32,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: globalStore.inCart(foodItem)
+                          ? Colors.redAccent
+                          : Colors.greenAccent,
+                    ),
+                    child: IconButton(
+                      color: globalStore.inCart(foodItem)
+                          ? Colors.white
+                          : Colors.green[700],
+                      onPressed: () {
+                        globalStore.updateCart(foodItem);
+                      },
+                      icon: Icon(
+                        globalStore.inCart(foodItem) ? Icons.remove : Icons.add,
+                        size: 16,
+                      ),
+                    )),
+              )
+            ],
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "${foodItem["description"]}",
+              style: const TextStyle(color: Colors.grey),
+            ),
+          ),
+          const Divider(),
         ],
       ),
     );

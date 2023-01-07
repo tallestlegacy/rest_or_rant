@@ -1,285 +1,211 @@
 [
     {
         "id": 15170698,
-        "restaurantName": "Nkg Cafe and Restaurant",
-        "address": "28 Leland Ave",
+        "restaurantName": "Kwa Festo's Cafe ",
+        "address": "Nakuru Outside of Kabarak University",
         "zipCode": "94134-2804",
         "latitude": "37.71163",
         "longitude": "-122.40423",
-        "stateName": "CA",
-        "cityName": "San Francisco",
+        "countryName": "Kenya",
+        "cityName": "Nakuru",
         "cuisineType": "Restaurant",
-        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/1b/01/10/f6/caption.jpg",
+        "imageUrl": "https://d12prgon3aw7l1.cloudfront.net/8118148_img-20200414-075642-525_1080x805.jpg",
         "food": [
             {
                 "id": 1,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Masala Chips",
+                "description": "A plate of chunk sized potatoes that have chopped garlic slices on top.",
+                "price": 150,
+                "imageUrl": "https://hungryhindu.com/wp-content/uploads/2016/07/Masala-Chips.jpg"
             },
             {
                 "id": 2,
-                "name": "lorem1",
-                "price": 399,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Ugali Matumbo",
+                "description": "Ugali served with wet fry matumbo and sukuma wiki.",
+                "price": 100,
+                "imageUrl": "https://1.bp.blogspot.com/-M5epviboRNo/X1t302ZJ9tI/AAAAAAAAALM/UE6fkPr3wcI98ZzU42VIJpy9qDTKZIpXACLcBGAsYHQ/s2048/ugali%2Bmatumbo%2B1.jpg"
             },
             {
                 "id": 3,
-                "name": "lorem1",
-                "price": 59,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Smokie Special",
+                "description": "2 smokies with a side of chips",
+                "price": 120,
+                "imageUrl": "https://www.sickchirpse.com/wp-content/uploads/2019/09/Chips-And-Sausages-2.jpg"
             },
             {
                 "id": 4,
-                "name": "lorem1",
-                "price": 64,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Rice and Beans",
+                "description": "A plate of rice served with beans.",
+                "price": 70,
+                "imageUrl": "https://twohealthykitchens.com/wp-content/uploads/2018/05/Easy-Rice-and-Beans-Recipe-horiz.jpg"
             }
         ]
     },
     {
         "id": 19669567,
-        "restaurantName": "Cardinal Nutrition",
-        "address": "2631 S 3rd St",
-        "zipCode": "40208-1408",
+        "restaurantName": "Silver Crane",
+        "address": "Kampi ya Moto",
+        "zipCode": "2 0100",
         "latitude": "38.21006",
         "longitude": "-85.76271",
-        "stateName": "KY",
-        "cityName": "Louisville",
+        "countryName": "Kenya",
+        "cityName": "Nakuru",
         "cuisineType": "Restaurant",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0JTQWzYNs4pPY3TFLIJKYwYRvFE06WLKGvP8rvbObsAEqpi6UQ9HKKG0PcIAJxLRWPtQ&usqp=CAU",
+        "imageUrl": "https://3.bp.blogspot.com/-5BL3CfNEUUU/Us-3ML0c77I/AAAAAAAAALQ/d86L4PML3Kw/s1600/l5.jpg",
         "food": [
             {
                 "id": 5,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Ugali Mayai",
+                "description": "A plate of ugali served with scrambled eggs, sukuma wiki.",
+                "price": 80,
+                "imageUrl": "https://i.ytimg.com/vi/_GCNrQwGpmk/maxresdefault.jpg"
             },
             {
                 "id": 6,
-                "price": 399,
-                "name": "lorem1",
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Viazi Karai",
+                "description": " Viazi karai is a crunchy Kenyan specialty consisting of boiled potatoes that are coated in a batter made with regular and gram flour, and either turmeric or saffron.",
+                "price": 90,
+                "imageUrl": "https://img-global.cpcdn.com/recipes/11b6d06f1e7a7dd7/1200x630cq70/photo.jpg"
             },
             {
                 "id": 7,
-                "name": "lorem1",
-                "price": 59,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Chapati and Beans",
+                "description": "2 chapatis served with beans.",
+                "price": 70,
+                "imageUrl": "https://i.pinimg.com/736x/9b/9f/d4/9b9fd4e2c0fc88988933d3fd8dca3c92--chapati-bean-stew.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Pilau",
+                "description": "Pilau rice contains spices like cardamom, cumin, cloves and cinnamon served with beef.",
+                "price": 100,
+                "imageUrl": "https://netstorage-tuko.akamaized.net/images/0fgjhs60sp4sot9f.jpg"
             }
         ]
     },
     {
         "id": 7144461,
-        "restaurantName": "Panda Express",
-        "address": "33550 S Dixie Hwy",
-        "zipCode": "33034-5602",
+        "restaurantName": "Mainstreet Barbeque",
+        "address": "Guisii Rd,Nakuru",
+        "zipCode": "2 0100 ",
         "latitude": "25.456512",
         "longitude": "-80.47546",
-        "stateName": "FL",
-        "cityName": "Florida City",
-        "cuisineType": "Chinese,Asian,Fast Food",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Panda_Express_Storefront_%2848128044623%29.jpg",
+        "country Name": "Kenya",
+        "cityName": "Nakuru",
+        "cuisineType": "Restaurant",
+        "imageUrl": "https://thebaliguideline.com/build/blog/img/best-restaurants-seminyak-00-cover.jpg",
         "food": [
             {
-                "id": 8,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "id": 9,
+                "name": "Shawarma and Chips",
+                "description": "A Lebanese food dish that is made of ground lamb and spices wrapped in a tortilla served with a side of chips. ",
+                "price": 480,
+                "imageUrl": "https://i.redd.it/yk4eqbud7sq11.jpg"
             },
             {
-                "id": 9,
-                "name": "lorem1",
-                "price": 399,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "id": 10,
+                "name": "Bajias",
+                "description": "Kenyan bajias are a popular street food item consisting of thinly sliced potatoes that are seasoned with turmeric, cumin, chili powder, garam masala, coriander, ginger, salt, and black pepper. ",
+                "price": 240,
+                "imageUrl": "http://www.tikaraii.fr/wp-content/uploads/2015/06/bajia.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Chicken Tikka",
+                "description": "Chicken marinated in yogurt and spices and then grilled.",
+                "price": 400,
+                "imageUrl": "https://www.ranaskitchen.com/wp-content/uploads/2018/02/img_8804.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Fish Fingers",
+                "description": "Fried small and thin breaded fish fillets",
+                "price": 600,
+                "imageUrl": "https://mk0geekrobocook3p2m6.kinstacdn.com/wp-content/uploads/2021/04/Fish-finger.jpg"
             }
         ]
     },
     {
         "id": 4291261,
-        "restaurantName": "Noodles & Company",
-        "address": "184 N Adams Rd",
+        "restaurantName": "Origin Coffee House",
+        "address": "Nakuru - kisumu Highway, Nakuru, Rift Valley Province,20100, Nakuru, Rift Valley",
         "zipCode": "48309",
         "latitude": "42.683113",
         "longitude": "-83.193214",
-        "stateName": "MI",
-        "cityName": "Rochester Hills",
-        "cuisineType": "Asian,Thai,American",
-        "imageUrl": "https://cdn.vox-cdn.com/thumbor/WtDRppjGCaSIzM_t8aNZqWvEmOg=/50x0:450x300/1200x800/filters:focal(50x0:450x300)/cdn.vox-cdn.com/uploads/chorus_image/image/38992908/noodles.0.jpg",
-        "food": [
-            {
-                "id": 10,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            },
-            {
-                "id": 11,
-                "name": "lorem1",
-                "price": 399,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            },
-            {
-                "id": 12,
-                "name": "lorem1",
-                "price": 59,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            }
-        ]
-    },
-    {
-        "id": 8714417,
-        "restaurantName": "Fromage Restaurant",
-        "address": "401 W Broadway",
-        "zipCode": "02127-2217",
-        "latitude": "42.337124",
-        "longitude": "-71.04824",
-        "stateName": "MA",
-        "cityName": "Boston",
-        "cuisineType": "American,Italian,French,European,Wine Bar",
-        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/12/a7/83/cc/wine-and-antipasto.jpg",
+        "countryName": "Kenya",
+        "cityName": "Nakuru",
+        "cuisineType": "Restaurant",
+        "imageUrl": "https://www.oaklandhs.com/resourcefiles/mainimages/hawthorn-suites-oakland-breakfast-area.jpg",
         "food": [
             {
                 "id": 13,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Tropicana Pizza",
+                "description": "(Pinneaple, Banana, Avocado, Sultanas, Apple)",
+                "price": 1290,
+                "imageUrl": "https://coolinarnie.pl/p/pizza-tropicana/pizza-tropicana_hu45fc05e4684ecfdb8695523d3219082d_114865_1600x0_resize_q75_box.jpg"
+            },
+            {
+                "id": 14,
+                "name": "BBQ Chicken Pizza",
+                "description": "(Chicken Strips, BBQ Sauce)",
+                "price": 1090,
+                "imageUrl": "https://www.thecountrycook.net/wp-content/uploads/2012/04/BBQ-Chicken-Pizza.jpg"
+            },
+            {
+                "id": 15,
+                "name": "Palaak Paneer",
+                "description": "Palak paneer is an Indian dish consisting of paneer (a type of cottage cheese) in a thick paste made from puréed spinach,",
+                "price": 800,
+                "imageUrl": "https://lovelaughmirch.com/wp-content/uploads/2019/01/Homemade-Palak-Paneer-_6.jpg"
+            },
+            {
+                "id": 16,
+                "name": "Grilled Salmon",
+                "description": " A plate of grilled salmon with Layonnaise Potatoes & Ratattoulle",
+                "price": 1800,
+                "imageUrl": "https://www.tasteofhome.com/wp-content/uploads/2018/01/1-2-3-Grilled-Salmon-for-Two_exps132368_TH1999635B11_17_2bC_RMS-1.jpg"
             }
         ]
     },
     {
         "id": 15170118,
-        "restaurantName": "Mini the Dough-Nut",
-        "address": "21925 Marine View Dr S",
-        "zipCode": "98198-6159",
+        "restaurantName": "IPIZ Restaurant- African cuisine",
+        "address": "Next to Naivas, Westside Mall, Opp Bank of Baroda, Nakuru, Rift Valley 20100",
+        "zipCode": " 2 0100",
         "latitude": "47.40511",
         "longitude": "-122.32497",
-        "stateName": "WA",
-        "cityName": "Seattle",
-        "cuisineType": "Restaurant",
+        "countryName": "Kenya",
+        "cityName": "Nakuru",
+        "cuisineType": "African Restaurant",
         "imageUrl": "https://minithedough-nut.com/wp-content/uploads/2018/05/home-3.jpg",
         "food": [
             {
-                "id": 14,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            },
-            {
-                "id": 15,
-                "name": "lorem1",
-                "price": 399,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            },
-            {
-                "id": 16,
-                "name": "lorem1",
-                "price": 59,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            }
-        ]
-    },
-    {
-        "id": 19660440,
-        "restaurantName": "Subway",
-        "address": "10819 E 31st Street",
-        "zipCode": "74146",
-        "latitude": "36.11933",
-        "longitude": "-95.855606",
-        "stateName": "OK",
-        "cityName": "Tulsa",
-        "cuisineType": "Restaurant",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Subway_in_Burwood_Plaza.jpg",
-        "food": [
-            {
                 "id": 17,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Ugali and Tilapia Fish",
+                "description": "A plate of ugali, tiliapia fish with a side of kachumbari and sukuma wiki",
+                "price": 200,
+                "imageUrl": "https://c2.staticflickr.com/6/5488/10595041614_f169db110b_b.jpg"
             },
             {
                 "id": 18,
-                "name": "lorem1",
-                "price": 399,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            }
-        ]
-    },
-    {
-        "id": 5075933,
-        "restaurantName": "Sonic Drive-In",
-        "address": "2035 College Avenue",
-        "zipCode": "36545",
-        "latitude": "31.532854",
-        "longitude": "-87.89105",
-        "stateName": "AL",
-        "cityName": "Jackson",
-        "cuisineType": "Restaurant",
-        "imageUrl": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/2021-03/Sonic-Exterior-large.jpg?h=1a818ad9&itok=Wl85yhW5",
-        "food": [
+                "name": "Rice and Chicken",
+                "description": "A plate of rice with a piece of chicken marinated in soup with a side of vegetables ",
+                "price": 170,
+                "imageUrl": "https://dinnerthendessert.com/wp-content/uploads/2018/01/One-Pot-Mexican-Chicken-and-Rice-3.jpg"
+            },
             {
                 "id": 19,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Biriyani",
+                "description": "Biryani is a delicious rice dish peppered with scrumptious spices like saffron and cumin and further layered with spiced meat or veggie protein.",
+                "price": 250,
+                "imageUrl": "https://www.madhuseverydayindian.com/wp-content/uploads/2020/12/plain-biryani-instant-pot-1152x1536.jpg"
             },
             {
                 "id": 20,
-                "name": "lorem1",
-                "price": 399,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            },
-            {
-                "id": 21,
-                "name": "lorem1",
-                "price": 59,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            }
-        ]
-    },
-    {
-        "id": 4615180,
-        "restaurantName": "Dairy Queen",
-        "address": "268 S Main St",
-        "zipCode": "48065-5131",
-        "latitude": "42.79779",
-        "longitude": "-83.01376",
-        "stateName": "MI",
-        "cityName": "Romeo",
-        "cuisineType": "Fast Food,American",
-        "imageUrl": "http://media.bizj.us/view/img/9257062/exteriorday*1200xx4842-2727-0-241.jpg",
-        "food": [
-            {
-                "id": 22,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            }
-        ]
-    },
-    {
-        "id": 17317377,
-        "restaurantName": "Hardee's",
-        "address": "100 Suzanne Dr",
-        "zipCode": "37055",
-        "latitude": "36.02279",
-        "longitude": "-87.33702",
-        "stateName": "TN",
-        "cityName": "Dickson",
-        "cuisineType": "Fast Food",
-        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/14/89/f9/4a/hardees-jumeira-rd-dubai.jpg",
-        "food": [
-            {
-                "id": 23,
-                "name": "lorem1",
-                "price": 199,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
-            },
-            {
-                "id": 24,
-                "name": "lorem1",
-                "price": 399,
-                "imageUrl": "https://images.pexels.com/photos/531829/pexels-photo-531829.jpeg"
+                "name": "Chapati and Beef Stew",
+                "description": "2 chapatis with beef stew and or cabbage/sukuma wiki of your choice.",
+                "price": 140,
+                "imageUrl": "https://i.ytimg.com/vi/mKQwIpkjBX4/maxresdefault.jpg"
             }
         ]
     }

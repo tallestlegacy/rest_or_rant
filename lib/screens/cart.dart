@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:rest_or_rant/screens/utils/store.dart';
@@ -13,6 +12,17 @@ class Cart extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text("Cart"),
+          actions: [
+            Obx(
+              () => Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Center(
+                    child: globalStore.cartCount > 0
+                        ? Text("Total : Ksh. ${globalStore.cartTotal}")
+                        : null,
+                  )),
+            )
+          ],
         ),
         body: Obx(
           () => globalStore.cartCount == 0
