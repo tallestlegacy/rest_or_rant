@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 
 import 'package:rest_or_rant/screens/utils/routing.dart';
 import 'package:rest_or_rant/screens/utils/store.dart';
@@ -14,11 +14,11 @@ class CartFAB extends StatelessWidget {
     final GlobalStore globalStore = Get.put(GlobalStore());
 
     return Obx(
-      () => Badge(
+      () => badges.Badge(
         showBadge: globalStore.cartCount > 0,
         animationDuration: const Duration(milliseconds: 500),
         badgeContent: Text(globalStore.cartCount.toString()),
-        animationType: BadgeAnimationType.scale,
+        animationType: badges.BadgeAnimationType.scale,
         badgeColor: Colors.lightGreenAccent,
         child: FloatingActionButton(
           onPressed: () {

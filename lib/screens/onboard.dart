@@ -12,12 +12,18 @@ class OnBoard extends StatefulWidget {
 }
 
 class _OnBoardState extends State<OnBoard> {
+  TextEditingController nameInput = TextEditingController();
   TextEditingController dateInput = TextEditingController();
+  TextEditingController phoneInput = TextEditingController();
+  TextEditingController addressInput = TextEditingController();
   final GlobalStore globalStore = Get.put(GlobalStore());
 
   @override
   void initState() {
-    dateInput.text = ""; //set the initial value of text field
+    nameInput.text = globalStore.name.value;
+    dateInput.text = globalStore.dob.value;
+    addressInput.text = globalStore.address.value;
+    phoneInput.text = globalStore.phoneNumber.value;
     super.initState();
   }
 
@@ -31,8 +37,8 @@ class _OnBoardState extends State<OnBoard> {
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 8),
             child: TextField(
-              decoration: const InputDecoration(
-                  border: OutlineInputBorder(), labelText: 'Name'),
+              controller: nameInput,
+              decoration: const InputDecoration(border: OutlineInputBorder(), labelText: 'Name'),
               onChanged: (value) {
                 globalStore.name(value);
               },
@@ -43,8 +49,7 @@ class _OnBoardState extends State<OnBoard> {
             child: TextField(
               controller: dateInput,
               //editing controller of this TextField
-              decoration: const InputDecoration(
-                  border: OutlineInputBorder(), labelText: 'Date of Birth'),
+              decoration: const InputDecoration(border: OutlineInputBorder(), labelText: 'Date of Birth'),
               readOnly: true,
               //set it true, so that user will not able to edit text
               onTap: () async {
@@ -56,8 +61,7 @@ class _OnBoardState extends State<OnBoard> {
                     lastDate: DateTime(2100));
 
                 if (pickedDate != null) {
-                  String formattedDate =
-                      DateFormat('yyyy-MM-dd').format(pickedDate);
+                  String formattedDate = DateFormat('yyyy-MM-dd').format(pickedDate);
                   globalStore.dob(formattedDate);
 
                   setState(() {
@@ -70,8 +74,8 @@ class _OnBoardState extends State<OnBoard> {
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 8),
             child: TextField(
-              decoration: const InputDecoration(
-                  border: OutlineInputBorder(), labelText: 'Phone Number'),
+              controller: phoneInput,
+              decoration: const InputDecoration(border: OutlineInputBorder(), labelText: 'Phone Number'),
               keyboardType: TextInputType.phone,
               onChanged: (value) {
                 globalStore.phoneNumber(value);
@@ -81,24 +85,25 @@ class _OnBoardState extends State<OnBoard> {
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 8),
             child: TextField(
-              decoration: const InputDecoration(
-                  border: OutlineInputBorder(), labelText: 'Address'),
+              controller: addressInput,
+              decoration: const InputDecoration(border: OutlineInputBorder(), labelText: 'Address'),
               keyboardType: TextInputType.streetAddress,
               onChanged: (value) {
                 globalStore.address(value);
               },
             ),
           ),
-          const Divider(),
-          ElevatedButton(
-            onPressed: () {
-              if (globalStore.detailsFilled) {
-                globalStore.storeDetails();
-                globalStore.updateOnBoarded(true);
-              }
-            },
-            child: const Text("SUBMIT"),
-          ),
+          if (!globalStore.onBoarded.value) const Divider(),
+          if (!globalStore.onBoarded.value)
+            ElevatedButton(
+              onPressed: () {
+                if (globalStore.detailsFilled) {
+                  globalStore.storeDetails();
+                  globalStore.updateOnBoarded(true);
+                }
+              },
+              child: const Text("SUBMIT"),
+            ),
         ],
       ),
     );

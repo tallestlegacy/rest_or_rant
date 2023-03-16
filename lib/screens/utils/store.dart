@@ -25,16 +25,22 @@ class GlobalStore extends GetxController {
     box.write("dob", dob.value);
   }
 
+  void resetUser() {
+    name("");
+    phoneNumber("");
+    address("");
+    dob("");
+    onBoarded(false);
+
+    storeDetails();
+  }
+
   void updateOnBoarded(value) {
     box.write("onBoarded", value);
     onBoarded(value);
   }
 
-  get detailsFilled =>
-      name.isNotEmpty &&
-      phoneNumber.isNotEmpty &&
-      address.isNotEmpty &&
-      dob.isNotEmpty;
+  get detailsFilled => name.isNotEmpty && phoneNumber.isNotEmpty && address.isNotEmpty && dob.isNotEmpty;
 
   get cartTotal {
     double total = 0;
